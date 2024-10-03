@@ -1,0 +1,10 @@
+/*Base*/
+@import url('./base/reset.css');
+@import url('./base/typoghaphy.css');
+@import url('./base/variables.css');
+
+/*Pages*/
+@import url('./pages/styles.css');
+
+/*Layout*/
+@import url('./layout/bottom.css');
