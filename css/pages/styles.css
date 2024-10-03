@@ -27,17 +27,6 @@
     font-size: 2rem;
 }
 
-.button {
-    animation: animationButton 2s .5s ease-in-out forwards;
-    color: var(--white);
-    text-decoration: none;
-    font-size: 1.5rem;
-    background-color: var(--red);
-    padding: 1rem 1rem;
-    border-radius: 15px;
-    opacity: 0;
-}
-
 .text_reveal {
     overflow: hidden;
     position: relative;
