@@ -1,0 +1,36 @@
+.bg-foto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    grid-column: 1 / -1;
+    position: relative;
+    height: 50vw;
+    padding: 2rem 2rem;
+}
+
+.bg-foto img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+    z-index: -100;
+}
+
+.bg-foto h1, h2{ 
+    color: var(--white);
+    z-index: 1;
+}
+
+.alinhado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

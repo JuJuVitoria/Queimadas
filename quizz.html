@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/svg" href="./assets/svg/fire.svg">
     <title>Quizz</title>
+
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    
+    <main>
+        <div class="caixa-principal">
+            <h1 class="font-title">Queimadas</h1>
+            <div class="caixa-perguntas"></div>
+            <div class="caixa-alternativas"></div>
+            <div class="caixa-resultado">
+                <p class="texto-resultado font-body"></p>
+            </div>
+        </div>
+
+        <div class="card-manchetes" style="display: none;">
+            <h2>Últimas notícias sobre queimadas</h2>
+            <ul class="lista-manchetes">
+                <li>Queimadas na Amazônia aumentam 15% em 2024</li>
+                <li>Novas medidas contra queimadas são implementadas no Pantanal</li>
+                <li>Estudo revela impacto das queimadas na biodiversidade</li>
+            </ul>
+            <button class="botao-proxima-pergunta">Próxima Pergunta</button>
+        </div>
+    </main>
+    <script src="./js/main.js"></script>
 </body>
 </html>

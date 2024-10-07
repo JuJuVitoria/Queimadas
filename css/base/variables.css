@@ -1,8 +1,14 @@
 :root {
+    /*Colors*/
     --dark-red: #401506;
     --red: #57200D;
     --light-red: #752B12;
     --orange: #A63F03; 
     --yellow: #F29F05;
     --white: #FEFEFE;
+
+    /*Font size*/
+    --font-title: 1.25rem;
+    --font-caption: 1rem;
+    --font-body: 0.75rem;
 }

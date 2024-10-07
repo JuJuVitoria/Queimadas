@@ -44,6 +44,20 @@
     }
 }
 
+.button-inicio {
+    animation: animationButton 2s .5s ease-in-out forwards;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+    border-radius: 15px;
+    opacity: 0;
+}
+
+.button-inicio_index {
+    color: var(--white);
+    background-color: var(--red);
+}
+
 @keyframes animationButton {
     to {
         opacity: 1;
